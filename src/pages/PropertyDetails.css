@@ -1,0 +1,135 @@
+.product-main-grid{
+    /* background-color: rgba(78, 83, 77, 0.06); */
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-rows:250px 250px ;
+    grid-template-columns: 2fr 3fr;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 10px;
+    gap:30px
+}
+.prod-image{
+   
+    mix-blend-mode: multiply;
+}
+.prod-items.img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 500px;
+    background-color: rgba(78, 83, 77, 0.06);
+}
+.prod-items{
+    display: flex;
+    flex-direction: column;
+   
+}
+.prod-price-dis{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    
+}
+.prod-old-price{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.603);
+    text-decoration: line-through;
+}
+.prod-dis{
+    margin-top: 5px;
+    color: #12ca7b;
+    font-weight: 500;
+}
+.prod-price{
+    font-size: 25px;
+}
+.prod-add-cart{
+    color: #12ca7b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 40px;
+    border:2px solid #05c572b4  ;
+    border-radius: 8px;
+    transition: 0.1s;
+    margin-right: 70px;
+}
+.prod-add-cart:hover{
+    background-color: #339b6e;
+    border:2px solid #339b6e;
+    color: aliceblue;
+ }
+ .prod-add-cart.buy-now{
+    color: white;
+    background-color: #12ca7b;
+    padding-top: 10px;
+    margin-top: 60px;
+    margin-right: 380px;
+ }
+ .prod-add-cart.buy-now:hover{
+    color: white;
+    border:2px solid #339b6e ;
+    background-color:#339b6e;
+ }
+ .prod-quant{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+ }
+ .input-group.quant{
+    width: 110px;
+ }
+ .prod-add-cart-text{
+margin-top: 4px;
+ }
+ .spl-offer-main{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 30px;
+ }
+ .spl-bajaj{
+    width:350px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border:2px solid #12ca7a53;
+    border-radius: 10px;
+    align-items: center;
+    gap:10px;
+ }
+ .spl-airtel{
+    width:650px;
+    height: 70px;
+    border:2px solid #12ca7a53;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px
+ }
+ .prod-des-div{
+    font-family: 'Montserrat', sans-serif;
+    border:2px solid #12ca7a53;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;margin-bottom: 40px;
+ }
+ .prod-des-p{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+ }
