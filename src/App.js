@@ -9,6 +9,7 @@ import BuyerPage from './pages/BuyerPage';
 import AddProperty from './pages/AddProperty';
 import EditProperty from './pages/EditProperty';
 import PropertyDetails from './pages/PropertyDetails';
+import ForgetPw from './pages/ForgetPw';
 
 
 const App = () => (
@@ -21,6 +22,7 @@ const App = () => (
     <Route path="/addproperty" element={<AddProperty />} />
     <Route path="/editproperty" element={<EditProperty />} />
     <Route path="/propertydetails" element={<PropertyDetails />} />
+    <Route path="/forgetpw" element={<ForgetPw />} />
   
   </Routes>
 );
